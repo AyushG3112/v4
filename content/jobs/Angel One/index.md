@@ -1,6 +1,6 @@
 ---
 date: '2022-12-12'
-title: 'SDE-3'
+title: 'Senior Software Engineer (SDE-3)'
 company: 'Angel One'
 location: 'Bangalore, India (Remote)'
 range: 'December 2022 - Present'
