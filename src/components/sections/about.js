@@ -65,12 +65,11 @@ const StyledPic = styled.div`
 
     &:hover,
     &:focus {
-      background: transparent;
       outline: 0;
+      transform: translate(-4px, -4px);
 
       &:after {
-        top: 15px;
-        left: 15px;
+        transform: translate(8px, 8px);
       }
 
       .img {
@@ -107,8 +106,8 @@ const StyledPic = styled.div`
 
     &:after {
       border: 2px solid var(--green);
-      top: 20px;
-      left: 20px;
+      top: 14px;
+      left: 14px;
       z-index: -1;
     }
   }
@@ -174,9 +173,12 @@ const About = () => {
               Fast-forward to today, and I've had the privilege of working at a few startups like{' '}
               <a href="#jobs">Seraro Solutions</a> and <a href="#jobs">Blocknomic Technologies</a>,{' '}
               <a href="https://mf.paisabazaar.com/">a fintech corporation</a>,{' '}
-              <a href="https://postman.com/">one of the most popular API collaboration platforms</a>,{' '}
-              <a href="https://gojek.io/">one of the biggest super apps ever</a> and
-              , currently, <a href="https://www.angelone.in/">one of India's biggest trading and stock brocking platforms</a>.
+              <a href="https://postman.com/">one of the most popular API collaboration platforms</a>
+              , <a href="https://gojek.io/">one of the biggest super apps ever</a> and , currently,{' '}
+              <a href="https://www.angelone.in/">
+                one of India's biggest trading and stock brocking platforms
+              </a>
+              .
             </p>
 
             <p>Here is a non-exhaustive list of technologies I've worked with:</p>
